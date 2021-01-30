@@ -28,18 +28,18 @@ This app predicts the **Spotify Track Skips**
 
 
 def user_input_features():
-    session_position = st.sidebar.text_input('session_position', 0, 1, 1)
+    session_position = st.sidebar.text_input('session_position',0)
     session_length = st.sidebar.text_input('session_length', 0, 1, 1)
     no_pause_before_play = st.sidebar.text_input('no_pause_before_play',0,1,1)
     short_pause_before_play = st.sidebar.text_input('short_pause_before_play', 0.0,1,1)
     long_pause_before_play = st.sidebar.text_input('long_pause_before_play',0.0,1,1)
     hist_user_behavior_n_seekfwd = st.sidebar.text_input('hist_user_behavior_n_seekfwd', -0.5,40,0.1)
     hist_user_behavior_n_seekback = st.sidebar.text_input('hist_user_behavior_n_seekback', -0.5,40,0.1)
-    hour_of_day = st.sidebar.text_input('hour_of_day', 0, 1, 1)
+    hour_of_day = st.sidebar.text_input('hour_of_day', 0)
     context_type_catalog = st.sidebar.text_input('context_type_catalog',  0, 1, 1)
     context_type_charts = st.sidebar.text_input('context_type_charts',  0, 1, 1)
-    context_type_editorial_playlist = st.sidebar.text_input('context_type_editorial_playlist', 0, 1, )
-    context_type_personalized_playlist = st.sidebar.text_input('context_type_personalized_playlist', 0.1,1 ,)
+    context_type_editorial_playlist = st.sidebar.text_input('context_type_editorial_playlist', 0, 1 )
+    context_type_personalized_playlist = st.sidebar.text_input('context_type_personalized_playlist', 0.1,1 )
     context_type_radio = st.sidebar.text_input('context_type_radio', 0,1,1)
     context_type_user_collection = st.sidebar.text_input('context_type_user_collection', 0,1,1)
     hist_user_behavior_reason_start_appload = st.sidebar.text_input('hist_user_behavior_reason_start_appload', 0,1,1)
