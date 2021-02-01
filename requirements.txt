@@ -4,4 +4,4 @@ numpy
 seaborn
 scikit-learn
 gunicorn
-pip install scikit_learn
+
