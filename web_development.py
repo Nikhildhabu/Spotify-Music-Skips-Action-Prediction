@@ -10,6 +10,8 @@ import pickle
 import pandas as pd
 #from flasgger import Swagger
 import streamlit as st
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.preprocessing import LabelEncoder
 
 #pickle_in = open("lgbm_model_TestAcc.pkl","rb")
 pickle_in = open("rfc_model_TestAcc.pkl","rb")
