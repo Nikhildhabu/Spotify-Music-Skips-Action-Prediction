@@ -92,7 +92,8 @@ col1,mid, col2 = st.beta_columns([20,1,20])
 with col1:
     st.subheader('Prediction')
     prediction = rfc.predict(df)
-    st.write(prediction)
+    skip = np.array(['Skipped','Not Skipped'])
+    st.write(skip[prediction])
 with col2:
     st.subheader('Prediction Probability')
     predict_proba=rfc.predict_proba(df)
