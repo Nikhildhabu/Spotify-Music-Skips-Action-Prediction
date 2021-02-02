@@ -1,4 +1,4 @@
-# Spotify-Music-Skips-Action-Prediction
+# Spotify-Music-Skips-Action-Prediction (deployment link https://spotify-track-skip-predicition.herokuapp.com/)
 The goal of the challenge is to predict the likelihood of a user skipping any given song during a listening session.
 
 [New_model_spotify.py](https://github.com/Nikhildhabu/Spotify-Music-Skips-Action-Prediction/blob/main/New_model_spotify.py) for model selection and to save to use/load for further test dataset. rfc and lgbm models used.
